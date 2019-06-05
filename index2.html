@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="comm.css"></link>
+<title>오다희의 웹사이트</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+
+
+		#header{
+               background-color: #000000;
+            }
+            #main_visual{
+                background-image: url(img/edm_back.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: 50% 50%
+                background-color:#000;
+             }
+             #namelogo{
+               height: 30px;
+             }
+
+
+			#logo2{
+				color: #cfc91d;
+			}
+			#header{
+				position: relative;
+				overflow: auto;
+			}
+			#header_list{
+				position: relative;
+				overflow: auto;
+				float:right;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				margin-left:50px;
+				margin-right: 20px;
+			}
+			#header_list li{
+				color: #fff;
+				float: left;
+				list-style: none;
+				padding: 10px;
+			}
+			#header_title{
+				float: left;
+				margin-top: 1px;
+				margin-bottom: 5px;
+				margin-left:50px;
+				margin-right: 50px;
+			}
+			.w_text{
+				color: white;
+				font-family: verdana, sans-serif;
+			}
+			#main_visual{
+				text-align: center;
+				padding-top:50px;
+				padding-bottom:500px;
+			}
+			#text1{
+				font-size: 28px;
+			}
+			#text2{
+				font-size: 50px;
+				letter-spacing: 10px;
+				margin: 0px;
+			}
+			#text3{
+				font-size: 18px;
+			}
+			#bt1{
+				margin-top:100px;
+			}
+			.content_title{
+                width:
+                margin-left:auto;
+                margin-right:auto;
+				color: #000000;
+				font-size: 20px;
+				text-align: center;
+				margin-top:30px;
+				margin-bottom: 30px;
+			}
+
+
+
+			#content_list1{
+				position: relative;
+				overflow: auto;
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			#content_list1 li{
+				float:left;
+				width: 17%;
+				text-align: center;
+				list-style: none;
+				border-right: solid 2px #aaa;
+				padding:3%;
+			}
+			#content_list1 li:last-child{
+				border-style: none;
+			}
+			.content_detail{
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+		    #content_list2{
+				position: relative;
+				overflow: auto;
+			    margin:0px;
+			    padding: 0px;
+			    border:0px;
+			}
+			#content_list2 li{
+				float: left;
+				margin:0px;
+				padding: 0px;
+				border:0px;
+				width: 25%;
+				list-style: none;
+			}
+			#content_list2 li {
+				width: 100%;
+				display: block;
+			}
+			body{
+				margin:0px;
+        background-color :#000000;
+			}
+
+        #header_navigation .link_button:link{
+        color:white;
+        text-decoration: none;
+        }
+        #header_navigation .link_button:visited{
+        color:gray;
+        text-decoration: none;
+        }
+        #header_navigation .link_button:hover{
+        color:#AC54EF;
+        text-decoration: none;
+        }
+        .link_button {
+	    padding: 1px;
+        }
+
+
+        #edminfo1 {
+          width:100px;
+          height:300px;
+          float:left;
+
+        }
+        #edminfo2 {
+          width:1000px;
+          height:300px;
+          float:right;
+
+        }
+        #edmtext{
+        padding :70px 120px 10px; 0px;
+        }
+
+        h3{
+          color:#ffffff;
+        }
+
+         p{
+           color:#ffffff;
+         }
+
+        h5{
+          color:#ffffff;
+        }
+
+        h2{
+          color:#ffffff;
+        }
+
+        #attraction {
+       	margin-top: 1px;
+       	margin-bottom: 1px;
+        }
+        #attraction_about {
+       	margin-left: 30px;
+       	margin-right: 30px;
+       	font-size: 10px;
+        }
+
+	    	#box1, #box1 div{
+
+	    	}
+	    	#box1{
+	    		margin-left: auto;
+	    		margin-right: auto;
+	    		position: relative;
+	    		overflow: hidden;
+	    		width:1000px;
+	    	}
+	    	#box2{
+	    		float: left;
+	    		width: 665px;
+	    	}
+	    	 #box3{
+	    		float: left;
+	    		width: 335px;
+	    	}
+	    	#box2{
+	    		height: 400px;
+	    	}
+	    	#box3{
+	    		height: 400px;
+	    	}
+	    	#box4{
+	    		padding-top: 50px;
+	    		padding-bottom: 50px;
+	    		height: 150px;
+	    	}
+	    	#box5{
+	    		height: 150px;
+	    	}
+            #image1{
+            	width:50px;
+            	height:50px;
+            }
+            #image2{
+            	width:335px;
+            	height:150px;
+            }
+
+
+	    	#box6, #box6 div{
+
+	    	}
+	    	#box6{
+	    		margin-left: auto;
+	    		margin-right: auto;
+	    		position: relative;
+	    		overflow: hidden;
+	    		width:1000px;
+	    	}
+	    	#box7{
+	    		float: left;
+	    		width: 335px;
+	    	}
+	    	 #box8{
+	    		float: left;
+	    		width: 665px;
+	    	}
+	    	#box7{
+	    		height: 400px;
+	    	}
+	    	#box8{
+	    		height: 400px;
+	    	}
+	    	#box9{
+	    		padding-top: 50px;
+	    		padding-bottom: 50px;
+	    		height: 150px;
+	    	}
+	    	#box10{
+	    		height: 150px;
+	    	}
+            #image3{
+            	width:65px;
+            	height:50px;
+            }
+            #image4{
+            	width:335px;
+            	height:150px;
+            }
+
+	    	#box11, #box11 div{
+
+	    	}
+	    	#box11{
+	    		margin-left: auto;
+	    		margin-right: auto;
+	    		position: relative;
+	    		overflow: hidden;
+	    		width:1000px;
+	    	}
+	    	#box12{
+	    		float: left;
+	    		width: 665px;
+	    	}
+	    	 #box13{
+	    		float: left;
+	    		width: 335px;
+	    	}
+	    	#box12{
+	    		height: 400px;
+	    	}
+	    	#box13{
+	    		height: 400px;
+	    	}
+	    	#box14{
+	    		padding-top: 50px;
+	    		padding-bottom: 50px;
+	    		height: 150px;
+	    	}
+	    	#box15{
+	    		height: 150px;
+	    	}
+            #image5{
+            	width:50px;
+            	height:50px;
+            }
+            #image6{
+            	width:335px;
+            	height:150px;
+            }
+	    	#box16, #box16 div{
+
+	    	}
+	    	#box16{
+	    		margin-left: auto;
+	    		margin-right: auto;
+	    		position: relative;
+	    		overflow: hidden;
+	    		width:1000px;
+	    	}
+	    	#box17{
+	    		float: left;
+	    		width: 335px;
+	    	}
+	    	 #box18{
+	    		float: left;
+	    		width: 330px;
+	    	}
+	    	#box19{
+	    		float: left;
+	    		font-weight: 335px;
+	    	}
+	    	#box17{
+	    		height: 400px;
+	    	}
+	    	#box18{
+	    		height: 400px;
+	    	}
+	    	#box19{
+                height: 400px;
+            }
+            #box20{
+	            padding-top: 50px;
+	    		padding-bottom: 50px;
+	    		height: 150px;
+            	}
+	    	#box21{
+	    		height: 150px;
+	    	}
+            #image7{
+            	width:50px;
+            	height:50px;
+            }
+            #image8{
+            	width:330px;
+            	height:150px;
+            }
+            #image9{
+            	width:335px;
+            	height:400px;
+            }
+            #image10{
+            	width:335px;
+            	height:400px;
+            }
+
+
+    #attraction {
+      padding: 50px;
+    }
+
+			#header_title{
+		    	font-size: 55px;
+		    	margin: 0px;
+		    }
+		    #header_list{
+		    	position: relative;
+		    	overflow: auto;
+		    	margin:0px;
+		    	padding:0px;
+		    	margin-top:15px;
+		    	margin-bottom:15px;
+		    	padding-top:15px;
+		    	padding-bottom:15px;
+		    }
+			#header_list li{
+				margin: 0px;
+				padding: 0px;
+				float: left;
+				list-style: none;
+				padding-right: 30px;
+				font-size: 10px;
+			}
+
+
+			.content_card{
+			   width: 314px;
+			   background-color: white;
+
+			}
+			.content3_title{
+				font-size: 15px;
+				font-weight: bold;
+				margin: 0px;
+			}
+			.content_date{
+				font-size: 8px;
+                margin-left
+
+			}
+			.content_card p{
+				font-size: 8px;
+			}
+			.content_button{
+				font-size: 8px;
+			}
+			.content_card hr,.hr_dotted{
+				border-top:dotted 1px #cccccc;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			.content_bottom{
+				padding: 1px;
+			}
+			#content{
+				position: relative;
+				overflow: auto;
+			}
+
+			#content{
+				margin-left: 300px;
+			}
+			.content_card{
+				border-right: solid 2px #ccc;
+				border-left: solid 2px #ccc;
+				border-bottom:solid 2px #ccc;
+				border-top:solid 2px #ccc;
+				margin-right:  70px;
+				float: left;
+
+			}
+			#footer ul{
+				position: relative;
+				overflow: auto;
+				margin:0px;
+				padding: 0px;
+			}
+
+			#footer ul li{
+				float: left;
+				list-style: none;
+			}
+			#footer div{
+				font-size: 8px;
+			}
+
+			#map {
+				width:900px;
+			}
+
+			#air {
+				width:314px;
+				height:300px;
+			}
+
+
+			a:link{
+				color: red;
+			}
+			a:visited{
+				color:hotpink;
+			}
+            a:hover{
+            	color: green;
+            }
+            a:active{
+            	color: blue;
+            }
+           #dahee {
+            color:#efafb9;
+          }
+     .link_button {
+     	padding: 10px;
+     }
+
+
+</style>
+<script></script>
+</head>
+
+
+
+<body>
+
+<div id="wrap">
+	<div id="header">
+		<h1 id="header_title">
+		<span id="logo1"><a class="link_main" href="index2.html"><img id="namelogo" src="img/namelogo.png"></a></span>
+		</h1>
+		<navigation id=header_navigation>
+		<ul id="header_list">
+			<li><a class="link_button" href="middlee.html">FESTIVAL</a></li>
+			<li><a class="link_button" href="middleee.html">ARTIST</a></li>
+			<li><a class="link_button" href="middleeee.html">MUSIC</a></li>
+		</navigation>
+	</div>
+	<div id="main_visual">
+	</div>
+</div>
+
+    <div id="edminfo1">
+    <aside><img width="350px;" height="350px;" src="img/content1.jpg"/></aside></div>
+
+<div id="edminfo2">
+    <main><p id="edmtext">
+      About:edm <br/><br/>
+      이디엠은 ‘일렉트로닉 댄스 뮤직(Electronic Dance Music)’의 약자로, 특정한 장르를
+
+
+
+ 칭한다기보다는<br/> 1990년대 들어와 클럽, 페스티벌, 파티에서 사용되는 전자음악을
+ 통칭하는 보다 ‘넓은 개념’이다.<br/>
+
+ ‘전자 악기로 연주되는 음악’을 가리키는 ‘일렉트로닉 뮤직(Electronic Music)’과는
+ 구분해서 사용되어<br/>야 한다.
+
+ 클럽 뮤직(Club Music), 혹은 그냥 댄스 뮤직(Dance Music)이라고 불리는 경우도 있다.<br/>
+ ‘록 페스티벌’의 인기가 감소하기 시작한 2010년대에 접어들어 이디엠 시장은 세계에서
+ 가장 뜨거운<br/> ‘아이템’이자 ‘흥행 상품’으로 발돋움했다
+  </p></main></div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br>/<br/><br/><br/><br/><br/>
+
+<center>
+
+
+  <div id="edminfo3">
+    <h3>EDM</h3>
+    <p class="content_detail">
+       SNS를 통해 보는 #EDM 열풍
+    </p> </div>
+
+
+  <div><ul id="content_list1">
+  </ul>
+  </div>
+	<div id="box1">
+		<div id="box2">
+			<a class="link_main" href="https://www.instagram.com/p/Bwo_BCBhX2K/?utm_source=ig_web_copy_link"><img width="665px;" height="px400;" src="img/edm1.jpg"/></a>
+		</div>
+
+
+		<div id="box3">
+			<center>
+			<div id="box4">
+				<h2 id=attraction>#EDM</h2>
+
+			</div>
+			</center>
+			<div id="box5">
+        <img width="665px;" height="px400;" src="img/djing.jpg"/>
+			</div>
+		</div>
+	</div>
+	<div id="box6">
+		<div id="box7">
+			<center>
+			<div id="box9">
+
+				<h2 id=attraction>#MUSIC</h2>
+
+			</div>
+			</center>
+			<div id="box10">
+				<img id="image4" src="img/music2.jpg">
+			</div>
+		</div>
+		<div id="box8">
+			<a class="link_main" href="https://www.instagram.com/p/BoPCSDMDgDu/?utm_source=ig_web_copy_link"><img width="665px;" height="px400;" src="img/music1.jpg"></a>
+		</div>
+	</div>
+
+			<center>
+
+			</center>
+
+
+	<div id="box16">
+		<div id="box17">
+			<a class="link_main" href="https://www.instagram.com/p/BoPCSDMDgDu/?utm_source=ig_web_copy_link"><img id="image9" src="img/festival1.jpg"></img></a>
+		</div>
+		<div id="box18">
+			<center>
+			<div id="box20">
+
+				<h2 id=attraction>#FESTIVAL</h2>
+				</div>
+			</center>
+			<div id="box21">
+				<img id="image8" src="img/festival2.jpg"></img>
+			</div>
+		</div>
+		<div id="box19"><a class="link_main" href="https://www.instagram.com/p/BwqcPpXHir-/?utm_source=ig_web_copy_link"><img id="image10" src="img/festival3.jpg"></img></a>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+
+	<div id="footer">
+
+	         	<hr class="hr_dotted"/>
+	         	<ul>
+	         	   <li><a class= "link_footer" href="https://www.facebook.com/0hdahee/"><img width="20px;" height="px20;" src="img/facebook.png" /></img></a></li>
+	         	   <li><a class= "link_footer" href="https://www.facebook.com/profile.php?id=100007290720682"><img width="20px;" height="px20;" src="img/instagram.png" /></img></a></li>
+
+	         	</ul>
+
+	         	<hr/>
+	         	<div>
+	         	  <p id= ohdahee >작성자 오다희ㅣ더 궁금한 사항은 아래 이메일로 문의 주세요.<br/>
+                   ekgml3676@naver.com</div></p>
+	            </div>
+
+
+	</body>
+	</html>
